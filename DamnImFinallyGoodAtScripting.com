@@ -1,4 +1,5 @@
 task.wait(.85)
+    lib:Notification("Voided", "Version 1.25 --4 more features added", "Close")
 
 local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
 
