@@ -1,7 +1,8 @@
 task.wait(.85)
-    lib:Notification("Voided", "Version 1.25 --4 more features added", "Close")
+
 
 local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
+
 
 		local win = lib:Window("Voided Private Autoheal",Color3.fromRGB(22, 20, 224), Enum.KeyCode.RightControl)
 
@@ -612,3 +613,4 @@ end)
 			task.wait (3)
 			lib:Notification("Voided", "Error", "Close")
 		end)
+		   lib:Notification("Voided", "  Version 1.25 New features --[ Autoeat Godmode, Autoeat Booster (Bottom of Autoheal tab), Anti death (Extra)  ", "Close")
