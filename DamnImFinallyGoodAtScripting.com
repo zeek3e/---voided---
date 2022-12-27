@@ -4,9 +4,86 @@ task.wait(.85)
 local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
 
 
-		local win = lib:Window("Voided Private Autoheal",Color3.fromRGB(22, 20, 224), Enum.KeyCode.RightControl)
+		local win = lib:Window("(--Voided--)",Color3.fromRGB(22, 20, 224), Enum.KeyCode.RightControl)
 
-		local tab = win:Tab("Autoheal")
+		local tab = win:Tab("Booga Reborn")
+		
+				tab:Button("Eat 3 heals on left click (Bloodfruit)", function()
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+
+mouse.Button1Down:Connect(function()
+local ohString1 = "Bloodfruit"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Bloodfruit"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Bloodfruit"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+
+
+end)
+				end)
+					tab:Button("Eat 4 heals on left click (Berry)", function()
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+
+mouse.Button1Down:Connect(function()
+local ohString1 = "Berry"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Berry"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Berry"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Berry"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+
+
+end)
+					end)
+					tab:Button("Eat 5 heals on left click (Bluefruit)", function()
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+
+mouse.Button1Down:Connect(function()
+local ohString1 = "Bluefruit"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Bluefruit"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Bluefruit"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Bluefruit"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Bluefruit"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+
+
+end)
+					end)
+					tab:Button("Eat 6 heals on left click (Lemon)", function()
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+
+mouse.Button1Down:Connect(function()
+local ohString1 = "Lemon"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Lemon"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Lemon"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Lemon"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Lemon"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+local ohString1 = "Lemon"
+game:GetService("ReplicatedStorage").Events.UseBagltem:FireServer(ohString1)
+
+
+end)
+		end)
+
+
+
+		local tab = win:Tab("PVP GAME 1")
 		tab:Button("Force reset to stop functions", function()
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
 		end)
@@ -498,7 +575,7 @@ local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scri
 			end
 		end)
 
-		local tab = win:Tab("Visuals")
+
 
 		tab:Button("120 FOV", function()
 			local FOV = 120
@@ -554,7 +631,7 @@ local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scri
 		end)
 
 
-		local tab = win:Tab("Extra")
+
 		
 		tab:Button('Anti death (Full void armor)', function()
 while true do 
@@ -613,4 +690,4 @@ end)
 			task.wait (3)
 			lib:Notification("Voided", "Error", "Close")
 		end)
-		   lib:Notification("Voided", "  Version 1.25 New features --[ Autoeat Godmode, Autoeat Booster (Bottom of Autoheal tab), Anti death (Extra)  ", "Close")
+		  
